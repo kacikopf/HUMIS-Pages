@@ -58,3 +58,23 @@ div.nav span a:hover {
 .nav a img{
     vertical-align: middle;
 }
+
+section.guts {
+    min-height: 510px;
+    margin: 0 1rem 5rem 0;
+    background-color: white;
+    border-radius: 20px;
+}
+
+div.bottom a {
+    text-transform: lowercase;
+    font-size: 7pt;
+}
+
+footer {
+    background-color: darkolivegreen;
+    color: white;
+    font-size: 9px;
+    text-align: center;
+    padding: 5px 0;
+}
