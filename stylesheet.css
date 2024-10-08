@@ -105,6 +105,73 @@ aside.nav div.nav-img-links a:hover {
     background-color: unset;
 }
 
+div.middle section.guts article.main{
+    float: right;
+    width: 500px;
+    min-height: 430px;
+    background-color: #FFF;
+    padding: .5rem;
+    margin-top: 10px;
+}
+
+.article-img {
+    float: right;
+    display: flex;
+    gap: 1rem;
+    /*border: 1px solid black;*/
+    width: 165px;
+    padding: 0 15px 10px 15px;
+}
+
+.article-img aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-img img{
+    width: 100%;
+}
+
+.article-img a{
+    margin-top: 10px;
+}
+
+article.main h1{
+    color: darkred;
+    font-weight: bolder;
+    font-size: 14pt;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+}
+
+article.main div.content {
+    font-size: 8pt;
+}
+
+
+div.content p {
+    margin-top: 0;
+    font-size: 9pt;
+    text-align: justify;
+}
+
+article.main a {
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    text-align: right;
+    font-size: 8pt;
+    text-transform: uppercase;
+    color: darkred;
+    letter-spacing: 1px;
+}
+
+article.main a:hover {
+    text-decoration: underline;
+}
+
 div.bottom a {
     text-transform: lowercase;
     font-size: 7pt;
