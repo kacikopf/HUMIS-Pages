@@ -24,6 +24,10 @@ div.nav {
     margin: 0  1rem 0 0;
 }
 
+div.top{
+    float: right;
+}
+
 div.bottom {
     margin-bottom: .3rem;
     text-align: right;
@@ -69,8 +73,7 @@ section.guts {
 div.middle section.guts aside.nav{
     float: left;
     width: 215px;
-    min-height: 618px;
-    margin: -25px 0 0 0;
+    min-height: 593px;
     background-color: #ebebeb;
     border-right: 1px solid darkolivegreen;
     padding-top: 20px;
