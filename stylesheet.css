@@ -1,0 +1,178 @@
+body {
+    background-color: darkgrey;
+}
+
+div.container {
+    /*border: 1px solid blue;*/
+    width: 780px;
+    min-height: 500px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.container header{
+    min-height: 100px;
+}
+
+.container header > img{
+    display: block;
+}
+
+div.nav {
+    text-align: right;
+    margin: .2rem  1rem 0 0;
+
+}
+
+div.bottom {
+    margin-bottom: .3rem;
+}
+
+div.nav a {
+    color: black;
+    text-transform: uppercase;
+    font-size: 8pt;
+    margin: 0 5px;
+    padding: 3px;
+    text-decoration: none;
+}
+
+div.nav span a:hover {
+    text-decoration: underline;
+}
+
+.nav span:after {
+    content: " |";
+    font-size: 10pt;
+}
+
+.bottom span:after {
+    font-size: 7pt;
+}
+
+.nav span:last-of-type:after {
+    content: "";
+}
+
+.nav a img{
+    vertical-align: middle;
+}
+
+.middle {
+    background-image: url('uofu_medallion_rt.gif');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+section.guts {
+    min-height: 510px;
+    margin: 1rem 1rem 5rem 1rem;
+    background-color: #d2d2bb;
+    border-radius: 20px;
+    padding: .1rem 1rem;
+}
+
+/*div.middle section.guts aside.nav,*/
+/*div.middle section.guts article.main{*/
+/*    border: 1px solid white;*/
+/*}*/
+
+div.middle section.guts aside.nav {
+    float: left;
+    width: 190px;
+    min-height: 500px;
+    margin: 15px 0 15px 25px
+}
+
+aside.nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 8pt;
+    padding: 10px 0 10px 10px;
+    border-bottom: 1px solid darkolivegreen;
+}
+
+aside.nav a:hover{
+    background-color: darkolivegreen;
+    color:white;
+    text-decoration: underline;
+}
+
+aside.nav div.nav-img-links {
+    margin-top: 5.5rem;
+}
+
+aside.nav div.nav-img-links a {
+    border-bottom: unset;
+}
+
+aside.nav div.nav-img-links a:hover {
+    background-color: unset;
+}
+
+div.middle section.guts article.main{
+    float: right;
+    width: 450px;
+    min-height: 430px;
+    background-color: #FFF;
+    padding: .5rem;
+    margin-top: 15px;
+}
+
+article.main img {
+    width: 100%;
+}
+
+article.main h1{
+    color: darkolivegreen;
+    font-weight: normal;
+    font-size: 10pt;
+    letter-spacing: 1.5px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+    border-bottom: 1.5px dotted darkred;
+    margin-bottom: .5rem;
+}
+
+article.main div.content {
+    height: 80px;
+    overflow: auto;
+    font-size: 8pt;
+}
+
+
+div.content p {
+    margin-top: 0;
+}
+
+div.content p span {
+    font-weight: bold;
+}
+
+article.main a {
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    font-size: 8pt;
+    text-transform: uppercase;
+    color: darkred;
+}
+
+article.main a:hover {
+    text-decoration: underline;
+}
+
+div.bottom a {
+    text-transform: lowercase;
+    font-size: 7pt;
+}
+
+footer {
+    background-color: darkolivegreen;
+    color: white;
+    font-size: 9px;
+    text-align: center;
+    padding: 5px 0;
+}
